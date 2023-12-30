@@ -58,6 +58,16 @@
   src: url("/fonts/sanchez.ttf") format("truetype");
 }
 
+header {
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  position: sticky;
+  backdrop-filter: blur(10px);
+  
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .outfit {
   font-family: 'Outfit', sans-serif;
 }
@@ -93,6 +103,22 @@
 }
 .card-shadow:hover {
   filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
+}
+
+.bg-color {
+  background-blend-mode: luminosity;
+}
+
+.video-bg {
+  
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  image-rendering: pixelated;
+  z-index: -1;
+  top: 0;
+  left: 0;
 }
 
 :root 

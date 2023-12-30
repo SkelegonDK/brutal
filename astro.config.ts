@@ -3,6 +3,14 @@ import sitemap from '@astrojs/sitemap';
 import UnoCSS from 'unocss/astro';
 
 export default defineConfig({
-  site: 'https://skelegondk.github.io',
-  base: '/my-repo',
-})
+  // used to generate images
+  site: 'https://SkelegonDK.github.io',
+  trailingSlash: 'ignore',
+  integrations: [sitemap(), UnoCSS({ injectReset: true })],
+  base: '/',
+  vite: {
+    optimizeDeps: {
+      exclude: ['@resvg/resvg-js'],
+    },
+  },
+});
