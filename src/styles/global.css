@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Phosphene";
+  font-family: "Handjet";
   font-style: normal;
   font-display: swap;
-  src: url("/fonts/PhospheneFont-Regular.ttf") format("truetype");
+  src: url("fonts/Handjet.ttf") format("truetype");
 }
 
 @font-face {
@@ -79,8 +79,8 @@
 .uncut {
   font-family: 'Uncut Sans', sans-serif;
 }
-.phosphene {
-  font-family: 'Phosphene', sans-serif;
+.Handjet {
+  font-family: 'Handjet', sans-serif;
 }
 .frick {
   font-family: 'Frick', sans-serif;
