@@ -5,7 +5,7 @@ import BlogList from '@components/blog/BlogList.astro';
 
 const posts = await getCollection('blog').then((collection) =>
   collection
-  // collection.reverse()
+  
 );
 ---
 
@@ -15,6 +15,6 @@ const posts = await getCollection('blog').then((collection) =>
   pageTitle='Brutal Blog'
 >
   <main class='bg-green p-6'>
-    <BlogList posts={posts} />
+    <BlogList posts={posts.reverse()} />
   </main>
 </Layout>
