@@ -11,7 +11,7 @@ interface Props {
 const { count } = Astro.props;
 
 const posts = await getCollection('blog').then((posts) =>
-  posts.reverse().slice(0, count ?? 3)
+  posts.slice(0, count ?? 3)
 );
 ---
 
@@ -28,6 +28,6 @@ const posts = await getCollection('blog').then((posts) =>
         <Button href='/blog/'>to blog</Button>
       </div>
     </div>
-    <BlogList posts={posts} />
+    <BlogList posts={posts.reverse()} />
   </Card>
 </section>
