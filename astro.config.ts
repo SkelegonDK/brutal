@@ -4,11 +4,10 @@ import UnoCSS from 'unocss/astro';
 
 export default defineConfig({
   // used to generate images
-  site: 'https://SkelegonDK.github.io/',
+  site: 'https://SkelegonDK.github.io',
   trailingSlash: 'ignore',
   integrations: [sitemap(), UnoCSS({ injectReset: true })],
-  publicPath: '/brutal/',
-  base: '/',
+  base: '/brutal',
   vite: {
     optimizeDeps: {
       exclude: ['@resvg/resvg-js'],
