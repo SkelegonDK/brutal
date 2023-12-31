@@ -7,6 +7,7 @@ export default defineConfig({
   site: 'https://SkelegonDK.github.io',
   trailingSlash: 'ignore',
   integrations: [sitemap(), UnoCSS({ injectReset: true })],
+  publicPath: '/brutal/',
   base: '/',
   vite: {
     optimizeDeps: {
