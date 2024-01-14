@@ -1,47 +1,26 @@
 ---
-title: Blogpost 3
-description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
+title: Brandshare Video
+description: Create videos in a matter of minutes with Brandshare.
 pubDate: 2023-02-14 23:49
-author: Elian Van Cutsem
+author: Manuel Thomsen
 tags: 
-  - CSS
-  - Astro
-  - Vite
-imgUrl: '../../assets/astro.jpeg'
-layout: ../../layouts/BlogPost.astro
+  - Python
+  - Moviepy
+  - Brandshare
+imgUrl: ./Brandshare_video.png
 ---
 
-## Deorum petiit ignis
+## Automatic Video
 
-Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, *vox
-nocte sedesque*, decimo. Omnia esse, quam sive; conplevit illis indestrictus
-admovit dedit sub quod protectus, impedit non.
+![Brandshare](/Brandshare_video.png)
 
-## Iovis late orbem Perseus sunt
+This was the project that kickstarted my love for Python. I was asked if I knew of any platform or tool that could create videos in a similar fashion that banners are created, which means in Javascript and in a browser. I knew it was probably possible, but that it would be very difficult to control the output. So I proposed to use Python, as it would be easier to control that kind of process if outside of the browser.
 
-Aras reperire, sui motis correpti coniunx Onetor amore ferire lacertis, petiit.
-Bis pallor et mecum me, igne patruelibus *tendebam*, vultu sterilique terruerat
-*tempore* medium aera **eadem Mittor**.
+A few weeks later, I had a working prototype that could create videos in a matter of minutes. The process was simple, the user would upload a video, a logo, and a few images. The user would then select a template and the script would do the rest. The script would take the video and stitch together smaller clips, then it would add the logo and images to the clips and finally it would add a soundtrack. The script would then render the video and upload it to the server. The user would then be able to download the video or share it on social media.
 
-- Non turba loca dederunt primordia ineamus Dictys
-- Tanti amat mundus sedula
-- Potuissent aetas parili coniuge se lumina breve
-- Tamen ille crepitantibus ulla coeperunt quibus iugulo
-- Pindusque solacia luctataque felix
+### Tasks
 
-## Longum minus sic saepe
-
-Genu cupiens quoque: cum dolor: sollicitive cantu, et piae Leuconoe, huius non
-nil tuli Peleusque rauca. Et alvum cuncti Hippodamas meritis nec coniunx ausa,
-pete. Congestaque nisi nullus poena. Tanto cum, curvis vulnera quod optatis,
-trahens conplexa saepe.
-
-Hominum quo. Signa germanaeque iuvat at feruntur precantibus corpus praebuerat
-excipit mixtaeque inferior, haec percepit regum: nec nec sit ferenti.
-
-## Geminas namque quod referitur argenteus aderat superstes
-
-Insistere pugno. Cum morae vigilantibus dulces Cycnus: neque cum sororis.
-
-Hac Aestas solet docebo tandem tamquam omnis vitiantur mitte, vatis in animique
-infelix passimque. Superasset onus.
+- Development of a video creation engine
+- Concurrent data retrieval and processing
+- Video rendering
+- Development of layer alignment and positioning systems

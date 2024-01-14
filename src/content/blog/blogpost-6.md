@@ -1,47 +1,29 @@
 ---
-title: Blogpost 6
-description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
+title: World Art Day concept
+description: AR Museum is an interactive gallery for mobile devices in AR. It allows users to explore the world of art in a new way. The app is designed to be used in a museum or at home. It is a great way to learn about art history and culture.
 pubDate: 2023-02-21 00:13
-author: Elian Van Cutsem
+author: Manuel Thomsen
 tags:
-  - TypeScript
-  - Astro
-  - Web Development
-imgUrl: '../../assets/astro.jpeg'
+  - Spark AR
+  - Adobe Aero
+  - Blender
+  - SoMe
+imgUrl: ./AR_Museum.png
 layout: ../../layouts/BlogPost.astro
 ---
 
-## Deorum petiit ignis
+## World Art Day **+** Dell concept
 
-Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, *vox
-nocte sedesque*, decimo. Omnia esse, quam sive; conplevit illis indestrictus
-admovit dedit sub quod protectus, impedit non.
+### **AR Museum**
 
-## Iovis late orbem Perseus sunt
+Interactive gallery for mobile devices in AR
 
-Aras reperire, sui motis correpti coniunx Onetor amore ferire lacertis, petiit.
-Bis pallor et mecum me, igne patruelibus *tendebam*, vultu sterilique terruerat
-*tempore* medium aera **eadem Mittor**.
+![AR_Museum](/AR_Museum.png)
 
-- Non turba loca dederunt primordia ineamus Dictys
-- Tanti amat mundus sedula
-- Potuissent aetas parili coniuge se lumina breve
-- Tamen ille crepitantibus ulla coeperunt quibus iugulo
-- Pindusque solacia luctataque felix
+**AR Museum** is an interactive gallery for mobile devices in AR. It allows users to explore the world of art in a new way. The app is designed to be used in a museum or at home. It is a great way to learn about art history and culture. The app is available for iOS and Android devices.
 
-## Longum minus sic saepe
+### **Instagram filter**
 
-Genu cupiens quoque: cum dolor: sollicitive cantu, et piae Leuconoe, huius non
-nil tuli Peleusque rauca. Et alvum cuncti Hippodamas meritis nec coniunx ausa,
-pete. Congestaque nisi nullus poena. Tanto cum, curvis vulnera quod optatis,
-trahens conplexa saepe.
+User can select any artwork by tapping, from a variety of modern contemporary artists and share their favourite art pieces on social media.
 
-Hominum quo. Signa germanaeque iuvat at feruntur precantibus corpus praebuerat
-excipit mixtaeque inferior, haec percepit regum: nec nec sit ferenti.
-
-## Geminas namque quod referitur argenteus aderat superstes
-
-Insistere pugno. Cum morae vigilantibus dulces Cycnus: neque cum sororis.
-
-Hac Aestas solet docebo tandem tamquam omnis vitiantur mitte, vatis in animique
-infelix passimque. Superasset onus.
+![Filter](/Insta_filter.JPG)

@@ -1,47 +1,27 @@
 ---
-title: Blogpost 2
+title: Dell Technologies
 pubDate: 12/31/2022 12:05
-author: "Elian Van Cutsem"
+author: "Manuel Thomsen"
 tags:
-  - Astro
-  - WebDev
-  - Programming
-imgUrl: '../../assets/astro.jpeg'
-description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
+  - Email
+  - Video
+  - OA banners
+  - Web Dev
+imgUrl: ./dell.png
+description: Email, video and banner work at scale. 
 layout: '../../layouts/BlogPost.astro'
 ---
 
-## Deorum petiit ignis
+## Dell Everywhere
 
-Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, *vox
-nocte sedesque*, decimo. Omnia esse, quam sive; conplevit illis indestrictus
-admovit dedit sub quod protectus, impedit non.
+![Dell](/dell.png)
 
-## Iovis late orbem Perseus sunt
+Dell Technologies is a global leader in IT infrastructure and services. Working for a global brand requires a global mindset and consistency at every level. I worked on a variety of projects for Dell, including email, video and banner work. Mainly with technocally complex tasks, but always wheighing in on creative side when it's relevant.
 
-Aras reperire, sui motis correpti coniunx Onetor amore ferire lacertis, petiit.
-Bis pallor et mecum me, igne patruelibus *tendebam*, vultu sterilique terruerat
-*tempore* medium aera **eadem Mittor**.
+### Tasks
 
-- Non turba loca dederunt primordia ineamus Dictys
-- Tanti amat mundus sedula
-- Potuissent aetas parili coniuge se lumina breve
-- Tamen ille crepitantibus ulla coeperunt quibus iugulo
-- Pindusque solacia luctataque felix
-
-## Longum minus sic saepe
-
-Genu cupiens quoque: cum dolor: sollicitive cantu, et piae Leuconoe, huius non
-nil tuli Peleusque rauca. Et alvum cuncti Hippodamas meritis nec coniunx ausa,
-pete. Congestaque nisi nullus poena. Tanto cum, curvis vulnera quod optatis,
-trahens conplexa saepe.
-
-Hominum quo. Signa germanaeque iuvat at feruntur precantibus corpus praebuerat
-excipit mixtaeque inferior, haec percepit regum: nec nec sit ferenti.
-
-## Geminas namque quod referitur argenteus aderat superstes
-
-Insistere pugno. Cum morae vigilantibus dulces Cycnus: neque cum sororis.
-
-Hac Aestas solet docebo tandem tamquam omnis vitiantur mitte, vatis in animique
-infelix passimque. Superasset onus.
+- Email development and extensive testing for global markets.
+- Video editing and animation for internal and external use.
+- Banner development and testing for global markets.
+- Technical support for internal and external stakeholders.
+- Trouble shooting and bug fixing for internal and external stakeholders.
