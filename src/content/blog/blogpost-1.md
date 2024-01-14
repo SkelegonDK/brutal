@@ -5,9 +5,8 @@ author: Manuel Thomsen
 tags:
   - Personal
   - Blog
-  - Branding
 imgUrl: ./mini_manu.jpeg
-description: How a poor south-american kid who fell in love with anything that had anything to do with computers.
+description: How a poor south-american kid, fell in love with computers.
 layout: '../../layouts/BlogPost.astro'
 ---
 
