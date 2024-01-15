@@ -1,7 +1,7 @@
 ---
 title: Brandshare Video
 description: Create videos in a matter of minutes with Brandshare.
-pubDate: 2023/02/14
+pubDate: "2023-01-14"
 author: Manuel Thomsen
 tags: 
   - Python
@@ -12,7 +12,7 @@ imgUrl: ./Brandshare_video.png
 
 ## Automatic Video
 
-![Brandshare](/Brandshare_video.png)
+![Brandshare](./Brandshare_video.png)
 
 This was the project that kickstarted my love for Python. I was asked if I knew of any platform or tool that could create videos in a similar fashion that banners are created, which means in Javascript and in a browser. I knew it was probably possible, but that it would be very difficult to control the output. So I proposed to use Python, as it would be easier to control that kind of process if outside of the browser.
 

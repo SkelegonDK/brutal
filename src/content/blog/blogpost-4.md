@@ -1,7 +1,7 @@
 ---
 title: Amazon
 author: Manuel Thomsen
-pubDate: 2023/02/15
+pubDate: "2023-02-15"
 tags:
   - Motion Graphics
   - Video editing

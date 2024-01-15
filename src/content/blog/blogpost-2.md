@@ -1,6 +1,6 @@
 ---
 title: Dell Technologies
-pubDate: 12/21/2020
+pubDate: "2022-12-21"
 author: "Manuel Thomsen"
 tags:
   - Email

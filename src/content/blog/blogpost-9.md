@@ -1,6 +1,6 @@
 ---
 title: Elevenlabs
-pubDate: 2024/01/14
+pubDate: "2023-07-14"
 author: "Manuel Thomsen"
 description: Industry defining Voice Generation
 tags:

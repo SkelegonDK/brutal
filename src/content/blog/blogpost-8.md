@@ -1,6 +1,6 @@
 ---
 title: Synthesia Studio
-pubDate: 2023/10/23
+pubDate: "2023-6-23"
 author: "Manuel Thomsen"
 description: AI powered video and translation
 tags:

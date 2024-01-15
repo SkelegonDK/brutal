@@ -1,6 +1,6 @@
 ---
 title: Heygen
-pubDate: 2024/01/15
+pubDate: "2024-01-15"
 author: "Manuel Thomsen"
 description: High end avatars and voices
 tags:

@@ -1,7 +1,7 @@
 ---
 title: World Art Day concept
 description: AR Museum is an interactive gallery for mobile devices.
-pubDate: 2023/02/21
+pubDate: "2023-04-21"
 author: Manuel Thomsen
 tags:
   - Spark AR
