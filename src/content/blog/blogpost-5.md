@@ -1,7 +1,7 @@
 ---
 title: Dashboard
 author: Manuel Thomsen
-pubDate: 2023-02-19 18:37
+pubDate: 2023/02/19
 tags:
   - Streamlit
   - Python

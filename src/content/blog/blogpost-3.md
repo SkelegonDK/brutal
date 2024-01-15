@@ -1,7 +1,7 @@
 ---
 title: Brandshare Video
 description: Create videos in a matter of minutes with Brandshare.
-pubDate: 2023-02-14 23:49
+pubDate: 2023/02/14
 author: Manuel Thomsen
 tags: 
   - Python
