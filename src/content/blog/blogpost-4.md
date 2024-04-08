@@ -13,7 +13,7 @@ layout: "../../layouts/BlogPost.astro"
 
 ## A more global Amazon
 
-![Amazon](/Amazon.png)
+![Amazon](./Amazon.png)
 
 Amazon wanted their new content to be more global, by focusing on individual regions in europe. I worked on numerous projects for Amazon, including video editing, motion graphics and banner work.
 

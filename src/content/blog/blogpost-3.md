@@ -1,6 +1,6 @@
 ---
-title: Brandshare Video
-description: Create videos in a matter of minutes with Brandshare.
+title: Automated Video
+description: Create videos in a matter of minutes with MoviePy.
 pubDate: "2023-01-14"
 author: Manuel Thomsen
 tags: 

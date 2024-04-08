@@ -2,7 +2,7 @@
 title: Heygen
 pubDate: "2024-01-15"
 author: "Manuel Thomsen"
-description: High end avatars and voices
+description: Best in class video translation and dubbing
 tags:
   - Video Dubbing
   - Virtual Avatar
@@ -21,6 +21,5 @@ Combined with some of the best voice synthesis, it enables users to create power
 
 ## Tasks
 
-- Create custom voice models
-- Direct talent for voice models
+- Video translation and dubbing
 - Create production workflows

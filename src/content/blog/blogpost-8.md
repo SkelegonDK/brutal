@@ -11,16 +11,8 @@ imgUrl: ./Synthesia.png
 layout: ../../layouts/BlogPost.astro
 ---
 
-## AR Showrooms
+## AR Showrooms concept
 
-![AR Showrooms](/showcase_low.png)
+![AR Showrooms](./showcase_low.png)
 
-Synthesia Studio creates state of the art personal avatars for businesses and education. On top of that they have a platform that allows you to create your own videos with your avatar. You can also translate automatically to many languages and scale your content production in minutes.
-I've been working with Synthesia Studio for around 4 years now, creating videos for big clients, helping with the localisation processes of those videos, and now creating production workflows that can scale to thousands of videos.
-
-Tasks:
-
-- Create videos for clients
-- Create production workflows
-- Create localisation workflows
-- Creating guidelines for Custom Avatars
+In this project, I explored what could be done with AR showrooms. The idea was to create custom showrooms for any product anywhere, and allow users to interact with the product in a new way. The project was done in collaboration with Adobe Aero and Blender.
