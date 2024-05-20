@@ -6,7 +6,7 @@
   font-family: "Handjet";
   font-style: normal;
   font-display: swap;
-  src: url("fonts/Handjet.ttf") format("truetype");
+  src: url("/fonts/Handjet.ttf") format("truetype");
 }
 
 @font-face {
@@ -63,8 +63,6 @@ header {
   left: 0;
   z-index: 1000;
   position: sticky;
-  backdrop-filter: blur(10px);
-  
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -130,10 +128,15 @@ header {
   /* Theme Tokens */
   --primary: var(--sys-color-white);
   --secondary: var(--sys-color-black);
+
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+a:hover {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>👆</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 ::-webkit-scrollbar {

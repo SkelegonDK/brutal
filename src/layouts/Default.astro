@@ -21,6 +21,7 @@ const { title, description, classList, pageTitle, ogImage } = Astro.props;
   <body class:list={[classList]}>
     <BaseNavigation {pageTitle} />
     <slot />
+    <div class="mt-8 p-6"></div>
     <BaseFooter />
   </body>
 </html>
