@@ -1,10 +1,11 @@
 ---
 import Layout from "@layouts/Default.astro";
-import RecentBlogPosts from "@components/generic/RecentBlogPosts.astro";
 import MobileSocials from "@components/home/MobileSocials.astro";
 import { Pill } from "@eliancodes/brutal-ui";
 import { Button } from "@eliancodes/brutal-ui";
 import { Card } from "@eliancodes/brutal-ui";
+import { ViewTransitions } from 'astro:transitions';
+
 
 const builtWith = [
   { name: "Elevenlabs", url: "#" },
@@ -24,8 +25,9 @@ const builtWith = [
   { name: "Figma", url: "#" }
 ];
 ---
-
+<ViewTransitions />
 <Layout
+  transition:name="hero"
   title="Manuelito.tech"
   pageTitle="Home"
   description="Creative Technologist : GenAI specialist"
@@ -34,12 +36,13 @@ const builtWith = [
     <MobileSocials />
     <section id="about" class="grid lg:grid-cols-8 md:grid-cols-8 sm:grid-cols-8  gap-8 mt-4">
       <video
+        transition:persist
         class="video-bg"
         playsinline
         autoplay
         muted
         loop
-        poster="polina.jpg"
+        
         id="bgvid"
       >
         <source src="./sky.mp4" type="video/mp4" />
@@ -104,7 +107,7 @@ const builtWith = [
             <strong>Work</strong>
           </h2>
           <p class="uncut">
-            I'm currently working as a <strong>Creative Technologist</strong> at <strong>VML Studios</strong> for some of techs biggest brands, such as <strong>DELL</strong>, <strong>AMAZON</strong> and <strong>MICROSFT</strong>  <br />
+            I'm currently working as a <strong>Creative Technologist</strong> at <strong>VML Studios</strong> for some of worlds biggest brands.
           </p>
         </Card>
       </div>
