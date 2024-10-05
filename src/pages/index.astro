@@ -7,6 +7,10 @@ import { Button } from "@eliancodes/brutal-ui";
 import { Card } from "@eliancodes/brutal-ui";
 import { ViewTransitions } from 'astro:transitions';
 import BlogList from '@components/blog/BlogList.astro';
+import { Image } from 'astro:assets';
+
+// Import assets
+import manuelImage from '../assets/manuel.png';
 
 const posts = await getCollection('blog').then((collection) =>
   collection
@@ -49,10 +53,9 @@ const builtWith = [
         autoplay
         muted
         loop
-        
         id="bgvid"
       >
-        <source src="./sky.mp4" type="video/mp4" />
+        <source src="/brutal/sky.mp4" type="video/mp4" />
       </video>
       <h2 class="hidden">Manuelito.tech</h2>
       <div class="col-span-8">
@@ -72,7 +75,7 @@ const builtWith = [
       </div>
       <div class="md:col-span-4 col-span-4 md:row-span-3 row-span-3">
         <Card>
-          <img src="manuel.png" alt="">
+          <Image src={manuelImage} alt="Manuel Thomsen" />
         </Card>
       </div>
       
@@ -82,7 +85,7 @@ const builtWith = [
             <strong>Who am I</strong>
           </h2>
           <p class="uncut">
-            I’m a versatile and curious person by trade. I ‘ve always been
+            I'm a versatile and curious person by trade. I 've always been
             naturally drawn to new technology and processes.
           </p>
         </Card>
