@@ -128,8 +128,12 @@ header {
   /* Theme Tokens */
   --primary: var(--sys-color-white);
   --secondary: var(--sys-color-black);
+  --accent: #ffff00;
+  --dark-grey: #212155;
 
 }
+
+
 
 html {
   scroll-behavior: smooth;

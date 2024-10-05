@@ -5,7 +5,7 @@ interface Props {
 
 const navigationItems = [
   { name: 'Home', url: '/' },
-  { name: 'Work', url: '/blog/' },
+  { name: 'Blog', url: '/blog/' },
 ];
 
 const socialIcons = [
@@ -45,7 +45,7 @@ const { pageTitle } = Astro.props;
         navigationItems.map((item) => (
           <li>
             <a
-              class='text-lg font-medium hover:text-yellow transition-all duration-150 ease-in-out'
+              class='text-lg font-medium hover:text-white transition-all duration-150 ease-in-out'
               href={item.url}
               title={`Go to ${item.name}`}
             >
@@ -59,7 +59,7 @@ const { pageTitle } = Astro.props;
           <li>
             <a
               href={item.url}
-              class='hover:text-yellow transition-all duration-150 ease-in-out'
+              class='hover:text-white transition-all duration-150 ease-in-out'
               target='_blank'
               title={`'See Manuel on ${item.name}`}
             >

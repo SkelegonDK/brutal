@@ -20,12 +20,13 @@ const builtWith = [
     name: "Heygen",
     url: "#",
   },
-  { name: "Stable Diffusion XL", url: "#" },
+  { name: "Stable Diffusion", url: "#" },
+  
   {
-    name: "Python",
+    name: "CrewAI",
     url: "#",
   },
-
+  
   { name: "Adobe After Effects", url: "#" },
   { name: "Blender", url: "#" },
   { name: "Figma", url: "#" }
@@ -36,7 +37,7 @@ const builtWith = [
   transition:name="hero"
   title="Manuelito.tech"
   pageTitle="Home"
-  description="Creative Technologist : GenAI specialist"
+  description="Creative Technologist : Synthetic Voice-over & Personal avatar specialist"
 >
   <main class="p-6">
     <MobileSocials />
@@ -60,14 +61,53 @@ const builtWith = [
             <p class="mt-4 frick text-2xl md:text-5xl lg:text-7xl">
               <strong>MANUEL THOMSEN</strong>
             </p>
-            <p class="mt-2 uncut text-xl md:text-3xl lg:text-5xl">
-              Creative Technologist & Synthetic VO Specialist
+            <p class="mt-2 frick text-xl md:text-3xl lg:text-5xl" style="color: var(--dark-grey);">
+              Creative Technologist
             </p>
-            
+            <p class="mt-2 frick text-xl md:text-xl lg:text-3xl">
+              Synthetic Voice-over & Personal avatar specialist
+            </p>
           </div>
         </Card>
       </div>
-      <div class="md:col-span-4 col-span-8">
+      <div class="md:col-span-4 col-span-4 md:row-span-3 row-span-3">
+        <Card>
+          <img src="manuel.png" alt="">
+        </Card>
+      </div>
+      
+      <div class="md:col-span-2 col-span-8">
+        <Card>
+          <h2 class="text-2xl md:text-2xl lg:text-4xl mb-4 frick">
+            <strong>Who am I</strong>
+          </h2>
+          <p class="uncut">
+            I’m a versatile and curious person by trade. I ‘ve always been
+            naturally drawn to new technology and processes.
+          </p>
+        </Card>
+      </div>
+      <div class="md:col-span-2 col-span-8">
+        <Card>
+          <h2 class="text-2xl md:text-2xl lg:text-4xl mb-4 frick">
+            <strong>Work</strong>
+          </h2>
+          <p class="uncut">
+            I'm currently working as a <strong>Creative Technologist</strong> at <strong>VML Studios</strong> for some of worlds biggest brands.
+          </p>
+        </Card>
+      </div>
+      <div class="md:col-span-2 col-span-8">
+        <Card>
+          <h2 class="text-2xl md:text-2xl lg:text-4xl mb-4 frick">
+            <strong>Passion</strong>
+          </h2>
+          <p class="uncut">
+            I'm driven by <strong>creative people</strong> and <strong>creative intent</strong>. I belive that in the age of generative AI and synthetic media, it's more important than ever to have tools and technology centered around giving creative work more thought and intent.
+          </p>
+        </Card>
+      </div>
+      <div class="md:col-span-4 col-span-4">
         <Card>
           <h2 class="text-2xl md:text-3xl lg:text-5xl mb-8 frick">
             Toolbelt
@@ -78,7 +118,7 @@ const builtWith = [
                 <li>
                   <Pill>
                     <a
-                      class="sanchez"
+                      class="uncut"
                       href={item.url}
                       target="_blank"
                       title={`Go to ${item.name}`}
@@ -92,32 +132,9 @@ const builtWith = [
           </ul>
         </Card>
       </div>
-      <div class="md:col-span-2 col-span-8">
-        <Card>
-          <h2 class="text-2xl md:text-4xl lg:text-6xl mb-4 frick">
-            <strong>Who am I</strong>
-          </h2>
-          <p class="uncut">
-            I’m a versatile and curious person by trade. I ‘ve always been
-            naturally drawn to new technology and processes.<br />
-            <strong>I love systems and I love creative people</strong>. <br />
-            
-          </p>
-        </Card>
-      </div>
-      <div class="md:col-span-2 col-span-8">
-        <Card>
-          <h2 class="text-2xl md:text-4xl lg:text-6xl mb-4 frick">
-            <strong>Work</strong>
-          </h2>
-          <p class="uncut">
-            I'm currently working as a <strong>Creative Technologist</strong> at <strong>VML Studios</strong> for some of worlds biggest brands.
-          </p>
-        </Card>
-      </div>
     </section>
     <br><br><br>
-    <BlogList posts={posts} />  
+    <!-- <BlogList posts={posts} />   -->
   </main>
   
 </Layout>
