@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 import UnoCSS from 'unocss/astro';
 
 export default defineConfig({
-  site: 'https://skelegondk.github.io',
+  site: 'https://manuelito.tech',
   base: '/brutal',
   trailingSlash: 'ignore',
   integrations: [sitemap(), UnoCSS({ injectReset: true })],
