@@ -8,7 +8,17 @@ interface Props {
 
 const { posts } = Astro.props;
 ---
-
+<video
+        transition:persist
+        class="video-bg"
+        playsinline
+        autoplay
+        muted
+        loop
+        id="bgvid"
+      >
+        <source src="/sky.mp4" type="video/mp4" />
+      </video>
 <ul class='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
   {
     posts.map((post) => {

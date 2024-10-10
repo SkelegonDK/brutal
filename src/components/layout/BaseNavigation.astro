@@ -4,8 +4,8 @@ interface Props {
 }
 
 const navigationItems = [
-  { name: 'Home', url: '/brutal/' },
-  { name: 'Blog', url: '/brutal/blog/' },
+  { name: 'Home', url: '/' },
+  { name: 'Blog', url: '/blog/' },
 ];
 
 const socialIcons = [
@@ -35,7 +35,7 @@ const { pageTitle } = Astro.props;
 
 <header class='border-b-4 border-black flex justify-between p-6 items-center backdrop-blur-md'>
   {pageTitle && <h1 class='hidden'>{pageTitle}</h1>}
-  <a href='/brutal/' title='Back to Home'>
+  <a href='/' title='Back to Home'>
     <p class='frick md:text-5xl'>MANUELITO.TECH</p>
   </a>
   <nav class='hidden md:inline-block'>
@@ -45,7 +45,7 @@ const { pageTitle } = Astro.props;
         navigationItems.map((item) => (
           <li>
             <a
-              class='text-lg font-medium hover:text-white transition-all duration-150 ease-in-out'
+              class='text-lg font-medium hover:text-green transition-all duration-150 ease-in-out'
               href={item.url}
               title={`Go to ${item.name}`}
             >
@@ -59,7 +59,7 @@ const { pageTitle } = Astro.props;
           <li>
             <a
               href={item.url}
-              class='hover:text-white transition-all duration-150 ease-in-out'
+              class='hover:text-green transition-all duration-150 ease-in-out'
               target='_blank'
               title={`'See Manuel on ${item.name}`}
             >
@@ -73,7 +73,7 @@ const { pageTitle } = Astro.props;
   <nav class='md:hidden flex'>
     <h2 class='hidden'>Mobile Navigation</h2>
     <ul>
-      <li><a class="frick" href='/brutal/blog/'>Work ⚙️</a></li>
+      <li><a class="frick" href='/blog/'>Blog</a></li>
     </ul>
   </nav>
 </header>

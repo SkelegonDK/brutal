@@ -6,56 +6,56 @@
   font-family: "Handjet";
   font-style: normal;
   font-display: swap;
-  src: url("/brutal/fonts/Handjet.ttf") format("truetype");
+  src: url("/fonts/Handjet.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Uncut Sans";
   font-style: normal;
   font-display: swap;
-  src: url("/brutal/fonts/UncutSans-Variable.ttf") format("truetype");
+  src: url("/fonts/UncutSans-Variable.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Frick";
   font-style: display;
   font-display: swap;
-  src: url("/brutal/fonts/Frick0.3-Regular.woff2") format("truetype");
+  src: url("/fonts/Frick0.3-Regular.woff2") format("truetype");
 }
 
 @font-face {
   font-family: "DM Serif Text";
   font-style: normal;
   font-display: swap;
-  src: url("/brutal/fonts/dm-serif.ttf") format("truetype");
+  src: url("/fonts/dm-serif.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Outfit";
   font-style: normal;
   font-display: swap;
-  src: url("/brutal/fonts/outfit.ttf") format("truetype");
+  src: url("/fonts/outfit.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Poppins";
   font-style: normal;
   font-display: swap;
-  src: url("/brutal/fonts/poppins.ttf") format("truetype");
+  src: url("/fonts/poppins.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Righteous";
   font-style: normal;
   font-display: swap;
-  src: url("/brutal/fonts/righteous.ttf") format("truetype");
+  src: url("/fonts/righteous.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Sanchez";
   font-style: normal;
   font-display: swap;
-  src: url("/brutal/fonts/sanchez.ttf") format("truetype");
+  src: url("/fonts/sanchez.ttf") format("truetype");
 }
 
 header {
