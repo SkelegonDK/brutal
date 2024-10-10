@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+  <filter id="blur-and-scale" y="-50%" x="-50%" width="200%" height="200%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="40" result="blurred" />
+    <feColorMatrix in="blurred" type="saturate" values="15" />
+    <feComposite in="SourceGraphic" operator="over" />
+  </filter>
+</svg>

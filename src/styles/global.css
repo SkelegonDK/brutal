@@ -66,6 +66,14 @@ header {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+article > p > img {
+  filter: url(#blur-and-scale);
+  /* realistic multilayer shadow */
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+}
+
 .outfit {
   font-family: 'Outfit', sans-serif;
 }
