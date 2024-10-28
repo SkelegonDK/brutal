@@ -16,7 +16,10 @@ layout: ../../layouts/BlogPost.astro
 # Orders of magnitude
 
 On a typical week, there always some technology that I'm excited about.
-This week has been, CRAZY! New open source models, new tools, new APIs and new techniques to make more interesting content.
+Last week was CRAZY! New open source models, new tools, new APIs and new techniques to make more interesting content with AI.
 Despite ALL of that, this week it's the release of Elevenlabs' Conversational AI.
 
-Elevenlabs' Conversational AI is awesome. It's simple to use and set up, but leaves all the doors open to make both complex but also simple.
+Elevenlabs' Conversational AI is awesome. It's simple to use and set up, but leaves all the doors open to make both complex agentic assistants as well as simple chatbots.
+
+Conversational AI is the next step in making AI more accessible and scalable.
+It let's you create chatbots based on your own data, prompts and context. Making the work of creating a personal assistant essentially trivial. This way you concencreate on your business and what it can do for you, rather than building a complex system.
