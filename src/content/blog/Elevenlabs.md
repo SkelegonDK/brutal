@@ -1,6 +1,6 @@
 ---
 title: Elevenlabs' Alchemy
-pubDate: "2024-10-5"
+pubDate: "2024-5-10"
 author: "Manuel Thomsen"
 description: Industry defining Voice Generation
 tags:
@@ -19,14 +19,14 @@ When people ask me about voice generation, I often describe Elevenlabs as “alc
 
 With the rise of real-time voice generation APIs, Elevenlabs still leads the way in quality and accessibility. What sets it apart? Its ability to extrapolate meaning from context, making voice generation feel like part science, part magic.
 
-OpenAI’s recent advances—like the so-called ‘Her mode’ (a reference to the movie Her), which allows for more nuanced, emotionally complex voices—are impressive but remain prohibitively expensive for most businesses.
+OpenAI’s recent advances-like the so-called ‘Her mode’ (a reference to the movie Her), which allows for more nuanced, emotionally complex voices—are impressive but remain prohibitively expensive for most businesses.
 The real alchemy with Elevenlabs is knowing how to craft a script that hits the right tone or emotion.
 
 On the other hand, despite Google’s push to standardize text-to-speech with [SSML](https://en.wikipedia.org/wiki/Speech_Synthesis_Markup_Language), true expressiveness in AI voiceovers is still elusive. The focus seems to be more on replicating natural language rather than adding a deeper emotional layer.
 
 ## Why It Feels Like Alchemy
 
-Working with text-to-speech tools isn’t simple. Results can vary—sometimes they’re great, other times robotic, but always a bit unpredictable. As AI tools become more advanced, they require a deeper understanding of human nature and linguistics to produce truly natural results.
+Working with text-to-speech tools isn’t simple. Results can vary-sometimes they’re great, other times robotic, but always a bit unpredictable. As AI tools become more advanced, they require a deeper understanding of human nature and linguistics to produce truly natural results.
 
 These days more often than not, I visualize how the performance of a voice should stay true to the source material, much like an actor approaching a role. Artistic sensibilities are as crucial as technical abilities. That’s where the “alchemy” happens—blending both skillsets to create something greater than the sum of its parts.
 
