@@ -6,7 +6,7 @@ interface Props {
 const { content } = Astro.props;
 ---
 
-<article class='prose-slate w-sm md:w-prose md:prose uncut'>
+<article class='prose-slate w-sm md:w-prose md:prose uncut backdrop-blur-[10px]'>
   <a href='/blog/' title='Back to blog'>&larr; Back to blog</a>
   <p class='text-slate text-sm md:text-base'>
     Published on {content.pubDate} by {content.author}
@@ -22,3 +22,48 @@ const { content } = Astro.props;
     <feComposite in="SourceGraphic" operator="over" />
   </filter>
 </svg>
+
+<style>
+  /* Target all headings and paragraphs within the article */
+  article :global(h1),
+  article :global(h2),
+  article :global(h3),
+  article :global(h4),
+  article :global(h5),
+  article :global(h6),
+  article :global(p) {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  /* Sequential delays for elements */
+  article :global(h1) { animation-delay: 0.1s; }
+  article :global(h2) { animation-delay: 0.2s; }
+  article :global(h3) { animation-delay: 0.3s; }
+  article :global(h4) { animation-delay: 0.4s; }
+  article :global(h5) { animation-delay: 0.5s; }
+  article :global(h6) { animation-delay: 0.6s; }
+  article :global(p) { animation-delay: calc(var(--paragraph-index, 0) * 0.2s + 0.7s); }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<script>
+  // Add index to paragraphs for sequential animation
+  document.addEventListener('DOMContentLoaded', () => {
+    const paragraphs = document.querySelectorAll('article p');
+    paragraphs.forEach((p, index) => {
+      (p as HTMLElement).style.setProperty('--paragraph-index', index.toString());
+    });
+  });
+</script>

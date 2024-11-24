@@ -1,0 +1,38 @@
+---
+interface Props {
+  index: number;
+}
+
+const { index } = Astro.props;
+const ANIMATION_DURATION = 0.3; // Duration in seconds
+const DELAY_MULTIPLIER = 1.2; // Wait a bit longer than the duration before starting next animation
+---
+
+<div 
+  class="animate-card backdrop-blur-[10px]"
+  style={`animation-delay: ${index * (ANIMATION_DURATION * DELAY_MULTIPLIER)}s;`}
+>
+  <slot />
+</div>
+
+<style>
+  .animate-card {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    70% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>

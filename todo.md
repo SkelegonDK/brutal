@@ -1,0 +1,12 @@
+- ✅ implement framer motion for the animations.
+  - Added sequential fade-in animations for all cards using CSS animations
+  - Each card waits for the previous card's animation to complete
+  - Smooth cubic-bezier easing with 0.8s duration
+  - Cards fade in and slide up with a 30px transform
+  - Added 1.2x delay multiplier for clear separation between animations
+- ✅ Add the same effect to headings and paragraphs in blog posts.
+  - Added fade-in and slide-up animations to all headings and paragraphs
+  - Used cubic-bezier easing with 0.8s duration
+  - Implemented sequential delays (0.1s-0.6s for headings)
+  - Added dynamic delays for paragraphs based on their position
+  - Maintained consistent 30px transform distance

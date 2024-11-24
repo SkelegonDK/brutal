@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import BlogSummaryCard from './BlogSummaryCard.astro';
+import AnimatedCard from '../animations/AnimatedCard.astro';
 
 interface Props {
   posts: CollectionEntry<'blog'>[];
@@ -9,24 +10,24 @@ interface Props {
 const { posts } = Astro.props;
 ---
 <video
-        transition:persist
-        class="video-bg"
-        playsinline
-        autoplay
-        muted
-        loop
-        id="bgvid"
-      >
-        <source src="/sky.mp4" type="video/mp4" />
-      </video>
+  transition:persist
+  class="video-bg"
+  playsinline
+  autoplay
+  muted
+  loop
+  id="bgvid"
+>
+  <source src="/sky.mp4" type="video/mp4" />
+</video>
 <ul class='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
   {
-    posts.map((post) => {
-      return (
+    posts.map((post, index) => (
+      <AnimatedCard index={index}>
         <li>
           <BlogSummaryCard post={post} />
         </li>
-      );
-    })
+      </AnimatedCard>
+    ))
   }
 </ul>
