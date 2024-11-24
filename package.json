@@ -25,7 +25,8 @@
     "astro": "^4.0.6",
     "motion": "^11.11.17",
     "satori": "^0.5.0",
-    "satori-html": "^0.3.2"
+    "satori-html": "^0.3.2",
+    "upgrade": "^1.1.0"
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.1.41",
