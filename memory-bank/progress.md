@@ -7,6 +7,7 @@
 - Animation system: Sequential fade-in animations are implemented and working.
 - Blog structure: The basic blog structure is in place.
 - Base layout and navigation
+- GitHub Pages deployment: The website is now automatically deployed to GitHub Pages using a GitHub Action.
 
 **What's Left to Build:**
 

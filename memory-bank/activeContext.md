@@ -21,3 +21,8 @@
 
 - Choosing the right tools and technologies for content creation.
 - Optimizing website performance and SEO.
+
+**Deployment:**
+
+- Configured GitHub Pages deployment using a GitHub Action.
+- Set the `base` property in `astro.config.ts` to `/brutal`.
